@@ -28,12 +28,13 @@ This repository is made for easy learning purpose and especially for beginners.I
 
 ![Billing](CloudImages/Billing.png )
 * Go to **Budgets and alerts** and click **create budget**
-![Billing](CloudImages/Billing.png )
+![alerts](CloudImages/Billing&alerts.png )
+![Billing](CloudImages/createbilling.png )
 * Put name for your budget and click **next**
-![Billing](CloudImages/Billing.png )
+![Billing](CloudImages/billingName.png )
 * Select budget type as **specified amount**(to specify our amount) or **Last month's budget**(to keep last month's amount as budget)
 * In **target amount**,specify the amount when you need to be alerted and click **Next**.
-![Billing](CloudImages/Billing.png )
+![Billing](CloudImages/targetamount.png )
 * You can set at what value you should get your alert (Example:when you reach 50% of your budget you will be alerted)
 * click **Finish**
 ## Uploading or cloning sample django app to deploy:
@@ -41,7 +42,7 @@ This repository is made for easy learning purpose and especially for beginners.I
 * For testing purpose we can clone this repository to the clous shell.
 #### Cloning in cloud shell:
 * Open cloud shell by clicking the icon that I mentioned below.
-![](CloudImages/Billing.png )
+![](CloudImages/activateshell.png )
 * While you are opening, If prompted click **continue**
 * Enter the command in cloud shell for cloning.<br />
     `git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git`
