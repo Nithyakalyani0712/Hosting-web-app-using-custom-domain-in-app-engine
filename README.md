@@ -15,25 +15,25 @@ This repository is made for easy learning purpose and especially for beginners.I
 (NOTE: If you already created a project then you can skip this step and proceed with Enable billing)
 * Go to [Google cloud console](https://console.cloud.google.com/projectcreate?_ga=2.124891343.471773399.1599312544-457839113.1597670267&_gac=1.123082233.1598172063.Cj0KCQjwp4j6BRCRARIsAGq4yMFryeAdJS_0RyOfVJQgKKPqPdrBK7BcBhCXfKS_EyCtog2s5d-ihrsaAnxfEALw_wcB) and login with your details.
 * You will see a dropdown box to select a project or to create a project as I displayed here.
-![Selecting from drop down](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/SelectProject.png )
+![](CloudImages/SelectProject.png)
 * Now click on New project to create a new project as highlighted here.
-![New project](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/NewProject.png )
+![](CloudImages/NewProject.png )
 * Then Enter the project name and note down the project ID for future reference.
-![Creating a project](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/CreateProject.png )
+![Creating a project](CloudImages/CreateProject.png )
 ## Enable billing:
 **App engine requires billing to be enabled but when you are in free tier money will be detected only if your free quota exceeded to be aware of this billing you can set alerts to keep in track of billing which will be discussed in billing and alerts**<br />
 (NOTE:You should allow permission in IAM & ADMIN for creating budgets.Refer [here](https://cloud.google.com/billing/docs/how-to/budgets#create-budget))
 * Click the Navigation menu *->* Billing
-![Navigation](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Navigation.png )
+![Navigation](CloudImages/Navigation.png )
 
-![Billing](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Billing.png )
+![Billing](CloudImages/Billing.png )
 * Go to **Budgets and alerts** and click **create budget**
-![Billing](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Billing.png )
+![Billing](CloudImages/Billing.png )
 * Put name for your budget and click **next**
-![Billing](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Billing.png )
+![Billing](CloudImages/Billing.png )
 * Select budget type as **specified amount**(to specify our amount) or **Last month's budget**(to keep last month's amount as budget)
 * In **target amount**,specify the amount when you need to be alerted and click **Next**.
-![Billing](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Billing.png )
+![Billing](CloudImages/Billing.png )
 * You can set at what value you should get your alert (Example:when you reach 50% of your budget you will be alerted)
 * click **Finish**
 ## Uploading or cloning sample django app to deploy:
@@ -41,7 +41,7 @@ This repository is made for easy learning purpose and especially for beginners.I
 * For testing purpose we can clone this repository to the clous shell.
 #### Cloning in cloud shell:
 * Open cloud shell by clicking the icon that I mentioned below.
-![Billing](https://github.com/Adding-custom-domain-to-django-app-in-app-engine-/images/Billing.png )
+![](CloudImages/Billing.png )
 * While you are opening, If prompted click **continue**
 * Enter the command in cloud shell for cloning.<br />
     `git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git`
