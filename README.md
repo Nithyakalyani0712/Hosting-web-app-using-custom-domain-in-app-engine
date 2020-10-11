@@ -24,7 +24,7 @@ This repository is made for easy learning purpose and especially for beginners.I
 **App engine requires billing to be enabled but when you are in free tier money will be detected only if your free quota exceeded to be aware of this billing you can set alerts to keep in track of billing which will be discussed in billing and alerts**<br />
 (NOTE:You should allow permission in IAM & ADMIN for creating budgets.Refer [here](https://cloud.google.com/billing/docs/how-to/budgets#create-budget))
 * Click the Navigation menu *->* Billing
-![Navigation](CloudImages/Navigation.png )
+![](CloudImages/Navigation.png )
 
 ![Billing](CloudImages/Billing.png )
 * Go to **Budgets and alerts** and click **create budget**
